@@ -12,8 +12,8 @@ library(ShortRead)
 # obtain a list of fastq file paths
 fastqFiles <- system.file(package="ShortRead",
                           "extdata/E-MTAB-1147",
-                          c("1.fastq",
-                            "2.fastq")
+                          c("a.fastq",
+                            "b.fastq")
 )
 
 # defined processed fastq file names
@@ -37,7 +37,7 @@ library(ShortRead)
 # obtain a list of fastq file paths
 fastqFile <- system.file(package="ShortRead",
                           "extdata/E-MTAB-1147",
-                          "1.fastq")
+                          "a.fastq")
 
 # read fastq file
 fq = readFastq(fastqFile)
