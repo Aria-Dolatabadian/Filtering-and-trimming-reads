@@ -38,3 +38,5 @@ fq[qcount == 0]
 # quality scores per base are above 20
 writeFastq(fq[qcount == 0], 
            paste(fastqFile, "Qfiltered", sep="_"))
+
+# use this Python code to extract the .gz file:  https://github.com/Aria-Dolatabadian/Python-tips/blob/main/Extract%20fastq.gz%20to%20fastq
