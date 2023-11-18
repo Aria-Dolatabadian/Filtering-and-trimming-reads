@@ -1,7 +1,6 @@
 library(QuasR)
 library(ShortRead)
 
-
 # obtain a list of fastq file paths from the working directory
 fastqFiles <- list.files(pattern="\\.fastq\\.gz")
 
